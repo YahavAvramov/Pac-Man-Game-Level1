@@ -11,7 +11,7 @@
             <Button x:Name="speedGhost" Content="speed +" Width="50" Height="26" Background="Black" Foreground="Blue" Canvas.Left="742" Click="speedClick"/>
             <Button x:Name="startButton" Content="Start" Width="50" Height="26" Background="Black" Foreground="blue" Canvas.Left="92" Canvas.Top="4" Click="startclick"/>
             <Label FontSize="20" Foreground=" White" Name="scoreTexst" Content="Score : 0"/>
-            <Rectangle Name="pacmen"  Height=" 30" Width=" 30" Fill="Yellow" Canvas.Left="21" Canvas.Top="174"/>
+            <Rectangle Name="pacmen"  Height=" 30" Width=" 30" Fill="Red" Canvas.Left="21" Canvas.Top="174"/>
             <Rectangle Name="ghost1" Tag="ghost" Height=" 30" Width=" 30" Fill="Purple" Canvas.Left="574" Canvas.Top="385" RenderTransformOrigin="0.516,1.025"/>
             <Rectangle Name="ghost2" Tag="ghost" Height=" 30" Width=" 30" Fill="Yellow" Canvas.Left="764" Canvas.Top="76" RenderTransformOrigin="-3.164,-3.689"/>
             <Rectangle Name="ghost3" Tag="ghost" Height=" 30" Width=" 30" Fill="Red" Canvas.Left="500" Canvas.Top="38" RenderTransformOrigin="0.31,0.664"/>
